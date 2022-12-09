@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tractor {
+  width: 100vw;
+}
+.form-group{
+    width:700px;
+    padding:16px;
+    border-radius:10px;
+    margin:auto;
+    background-color:#ccc;
+}
+
+.label control-label{
+  text-align: justify;
+  font: 2em sans-serif;
+	width:72px;
+	font-weight:bold;
+}
+.form-login {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(151, 180, 206);
+  border-radius: 30px;
+}
+
+.Info-fecha {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.Dimensiones-envio{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.Delicado{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 90%;
+  gap: 10px;
+}
+
+.info-general-envios{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.seccion-principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.Servicios input[type=number]{
+  width: 60px;
+}
+
+.Servicios {
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.init{
+  text-align: center;
+  color:blue ;
+
+}
+.tit-lis{
+  text-align: center;
+  color:blue ;
+}
+
+inp-sumit{
+  border-bottom: #61dafb;
+  background-color: #def;
+}
